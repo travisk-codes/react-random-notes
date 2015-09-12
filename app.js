@@ -204,7 +204,7 @@ var RandomNotes = React.createClass({
             callback={ this.changeSound }
           />
           <audio
-            src='tick.ogg'
+            src='public/tick.ogg'
             ref='tickSound'
           ></audio>
         </div>
