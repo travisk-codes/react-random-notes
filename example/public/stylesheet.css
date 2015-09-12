@@ -1,0 +1,71 @@
+#random-notes-container {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around; // gotta sprreeaaad it on out, now.
+	flex-wrap: nowrap;
+
+  width: 300px;
+  height: 300px;
+  background-color: #DBD5EE;
+	border-radius: 3px;
+	text-shadow: none;
+	box-shadow: 0px 4px 8px 1px gray;
+}
+
+#note-display {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex: 4;
+	padding-top: 20px;
+
+	//font-family: Helvetica;
+	//text-align: center;
+	font-size: 150px;
+	color: #100D1A;
+}
+
+sup {
+	font-size: 80px;
+}
+
+#beat-display {
+	flex: 1;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+
+}
+
+#control-display {
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 12px;
+	flex: 1;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	padding: 0px 8px;
+	color: #201D44;
+
+	input {
+		font-size: 14px;
+	}
+}
+
+.beat {
+	width: 20px;
+	height: 20px;
+
+	background-color: #524E91;
+	border-radius: 10px;
+	box-shadow: 0px 2px #201D44;
+}
+
+.current /*beat*/ {
+	background-color: white;
+	box-shadow: 0px 0px 6px 1px white, 0px 2px #201D44;
+}
+
+#bpm-input {
+	width: 40px;
+}
