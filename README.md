@@ -6,3 +6,8 @@ A React component to help learn a fretboard... or whatever use-case you have in 
 
 ## Example
 http://tdkohlbeck.github.io/react-random-notes/
+
+## Install
+```bash
+$ npm install react-random-notes
+```
