@@ -1,6 +1,6 @@
 #container {
-	margin: 0px auto;
-	margin-top: 50px;
+	display: flex;
+	justify-content: center;
 }
 
 #random-notes-container {
