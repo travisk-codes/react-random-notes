@@ -5,10 +5,10 @@
   "main": "src/RandomNotes.jsx",
   "repository": {
     "type": "git",
-    "url": "https://github.com/tdkohlbeck/react-random-notes.git",
+    "url": "https://github.com/tdkohlbeck/react-random-notes.git"
   },
   "bugs": {
-    "url": "https://github.com/tdkohlbeck/react-random-notes/issues",
+    "url": "https://github.com/tdkohlbeck/react-random-notes/issues"
   },
   "author": "Travis Kohlbeck",
   "license": "MIT",
@@ -17,9 +17,9 @@
     "music",
     "react",
     "react-component",
-    "react-random-notes",
+    "react-random-notes"
   ],
   "devDependencies": {
-    "react": "^0.13.3",
-  },
+    "react": "^0.13.3"
+  }
 }
