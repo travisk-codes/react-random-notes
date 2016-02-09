@@ -60,6 +60,7 @@ var RandomNotes = React.createClass({
       beat: 0,
       bpm: 120,
       note: '',
+      prevNote: '',
       sound: false,
     };
   },
@@ -126,10 +127,13 @@ var RandomNotes = React.createClass({
     var note = notes[randomIndex];
 
     // same note? let's try again!
-    if (note === this.state.note) {
+    if (note === this.state.note || note === this.state.prevNote) {
       note = this.getRandomNote();
     }
 
+    this.setState( {prevNote: this.state.note } );
+    
+    
     return note;
   },
 
